@@ -13,7 +13,7 @@ void print_greeting ()
 
     std::cin >> input;
     std::cout << input << ": input" <<std::endl;
-    if (input == 1) { std::cout << "you pressed 1";}
+    if (input == 1) { return my_ui.author_menu();}
     if (input == 2) { std::cout << "you pressed 2";}
 
     return;
