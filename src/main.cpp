@@ -8,7 +8,6 @@ void print_greeting ()
 {
     Base_UI my_ui;
     my_ui.main_menu();
-    
     auto input = 0;
 
     std::cin >> input;
@@ -25,7 +24,6 @@ void print_greeting ()
 
     // std::cout << "This is a basic app" << std::endl;
     // my_file << "\n" << endl;
-    
     // my_file << "Name: " + my_author.get_name() + " | ID: " + std::to_string(my_author.get_id()) << std::endl;
     // my_file.close();
 }
